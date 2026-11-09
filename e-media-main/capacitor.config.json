@@ -1,0 +1,14 @@
+{
+  "appId": "app.lovable.36a2de0d4f0c43bfa9a722d49549bff2",
+  "appName": "e-media",
+  "webDir": "dist",
+  "server": {
+    "url": "https://36a2de0d-4f0c-43bf-a9a7-22d49549bff2.lovableproject.com?forceHideBadge=true",
+    "cleartext": true
+  },
+  "plugins": {
+    "AdMob": {
+      "appId": "ca-app-pub-2820576027993732~8422107034"
+    }
+  }
+}

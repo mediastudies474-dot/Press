@@ -1,0 +1,19 @@
+project_id = "fgprfeibxzpkgqhxzhuo"
+
+[functions.ussd]
+verify_jwt = false
+
+[functions.fact-check]
+verify_jwt = false
+
+[functions.daily-digest]
+verify_jwt = false
+
+[functions.translate-article]
+verify_jwt = false
+
+[functions.push-send]
+verify_jwt = false
+
+[functions.send-sms]
+verify_jwt = false

@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1792270818669,
+      "tag": "0000_global_news_cache",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1792307008846,
+      "tag": "0001_newsroom_portal_and_global_news_cron",
+      "breakpoints": true
+    }
+  ]
+}

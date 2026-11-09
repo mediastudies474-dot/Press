@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>ES-PRESS | Eswatini Media Hub</title>
+    <meta name="description" content="ES-PRESS — All Eswatini media in one app: live TV, radio, newspapers, magazines, podcasts and investigative journalism. By Imvelo Tech Group." />
+    <meta name="keywords" content="Eswatini, Swaziland news, ES-PRESS, Eswatini TV, EBIS, Times of Eswatini, Eswatini Observer, Inhlase, Eswatini radio, Eswatini podcasts" />
+    <meta name="author" content="Imvelo Tech Group" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="ES-PRESS" />
+    <meta name="application-name" content="ES-PRESS" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+    <link rel="canonical" href="https://e-media.lovable.app/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ES-PRESS" />
+    <meta property="og:title" content="ES-PRESS | Eswatini Media Hub" />
+    <meta property="og:description" content="All Eswatini media in one app — TV, Radio, Newspapers, Magazines, Podcasts and Investigative Journalism." />
+    <meta property="og:url" content="https://e-media.lovable.app/" />
+    <meta property="og:image" content="https://e-media.lovable.app/icons/icon-512.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ES-PRESS | Eswatini Media Hub" />
+    <meta name="twitter:description" content="All Eswatini media in one app — TV, Radio, Newspapers, Magazines, Podcasts." />
+    <meta name="twitter:image" content="https://e-media.lovable.app/icons/icon-512.png" />
+
+    <!-- OneSignal Web Push SDK v16 -->
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+    <script>
+      window.OneSignalDeferred = window.OneSignalDeferred || [];
+      OneSignalDeferred.push(async function(OneSignal) {
+        await OneSignal.init({
+          appId: "54ad63ae-1b23-4784-95ef-85a34a50ee88",
+          serviceWorkerPath: "/OneSignalSDKWorker.js",
+          allowLocalhostAsSecureOrigin: true,
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

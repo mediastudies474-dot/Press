@@ -1,0 +1,1 @@
+ALTER VIEW public.media_consumption_daily SET (security_invoker = on);
